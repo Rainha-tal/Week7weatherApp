@@ -1,15 +1,9 @@
 body {
     background-color: #f9f7fe;
-    font-family: "Parkinsans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-
+}
 .weather-app {
     background: white;
     max-width: 600px;
-    margin: 50px auto;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 30px 50px rgb(0, 0, 0, 0.09);
+    margin: 0 auto;
+
 }
