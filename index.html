@@ -14,26 +14,32 @@
     <div class="weather-app">
         <header>
             <form class="search-form" id="search-form">
-                <input type="search" placeholder="Enter a city.." required id="search-input" class="search-input" />
+                <input type="search" placeholder="Enter a city.." required id="search-form-input" class="search-input" />
                 <input type="submit" value="Search" class="search-btn" />
             </form>
         </header>
         <main>
             <div class="weather-app-data">
                 <div>
-                    <h1 class="weather-city" id="city">Pretoria</h1>
+                    <h1 class="weather-city" id="city"></h1>
                     <p class="weather-info">
-                        Friday 5:05, Drizill
-                        <br />
-                        Humidity:<strong>76%</strong> , Wind: <strong> 5.13km/h</strong>
-                    </p>
+                        <span id="time"></span>
+                      </p>
+                    
+                        <p><span id="description"></span></p>
+                    
+                    <div>
+                      <p>Humidity: <span id="humidity"></span></p>
+                      <p>Wind speed: <span id="wind-speed"></span></p>
+                  </div>
                 </div>
                 <div class="weather-container">
                     <div class="weather-info">
-                        <i class="weather-icon">🌦️</i>
-                        <span class="weather-temp" id="temperature">24</span>
+                        <i class="weather-icon" id="icon"></i>
+                        <span class="weather-temp" id="temperature"></span>
                     </div>
                     <span class="weather-units">℃</span>
+                   
                 </div>
             </div>
         </main>
