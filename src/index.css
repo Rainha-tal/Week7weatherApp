@@ -58,7 +58,7 @@ main {
 
 }
 
-.weather-info strong {
+.weather-info span{
     color: red;
 }
 
